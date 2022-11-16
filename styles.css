@@ -1,0 +1,44 @@
+/* add your CSS here */
+
+html * {
+  font-family: "Raleway", sans-serif;
+}
+
+.animal-card {
+  border: 1px solid #d5d5d5;
+  width: 300px;
+  padding: 10px;
+  margin: 30px auto;
+  box-shadow: 7px 7px #e5e5e5;
+  border-radius: 10px;
+}
+
+.animal-name {
+  margin: 10px 0;
+}
+
+.animal-img {
+  width: 300px;
+  height: 300px;
+  margin: 10px 0;
+  object-fit: cover;
+  border: 1px solid #d5d5d5;
+}
+
+.animal-info {
+  border: 1px solid #d5d5d5;
+  padding: 0 10px;
+}
+
+.animal-facts {
+  font-style: italic;
+}
+
+.animal-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.animal-items li span {
+  font-weight: bold;
+}
